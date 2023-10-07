@@ -95,8 +95,8 @@ const App = () => {
 	return (
 		<div className="w-screen h-screen overflow-hidden font-rubik select-none">
 			<div className="w-full fc h-1/3 relative z-10 px-10">
-				<img src="/images/pattern-bg-desktop.png" className="w-full h-full object-cover absolute -z-10 hidden sm:block" />
-				<img src="/images/pattern-bg-mobile.png" className="w-full h-full object-cover absolute -z-10 block sm:hidden" />
+				<div className="w-full h-full object-cover absolute -z-10 hidden sm:block bg-[url(/pattern-bg-desktop.png)]" />
+				<div className="w-full h-full object-cover absolute -z-10 block sm:hidden bg-[url(/pattern-bg-mobile.png)]" />
 				<div className="fc gap-2 mb-4">
 					<h1 className="text-4xl font-medium text-center text-white pt-10">IP Address Tracker</h1>
 					<a href="https://lemirq.github.io/" className="text-center text-white underline underline-offset-2">
