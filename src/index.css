@@ -11,6 +11,10 @@
 	}
 }
 
-.mapboxgl-ctrl-bottom-right .mapboxgl-ctrl-bottom-left {
+.mapbox-logo,
+.mapboxgl-ctrl-logo,
+a.mapbox-improve-map,
+[aria-label='Mapbox'],
+[aria-label='OpenStreetMap'] {
 	display: none !important;
 }
